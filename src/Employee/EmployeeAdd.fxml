@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.EmployeeAdd">
+   <children>
+      <Pane layoutY="2.0" prefHeight="568.0" prefWidth="596.0">
+         <children>
+            <Label layoutX="104.0" layoutY="135.0" text="Employee ID" textFill="#330075">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="104.0" layoutY="188.0" text="Employee Name" textFill="#330075">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="104.0" layoutY="241.0" text="Employee DOB" textFill="#330075">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="104.0" layoutY="292.0" text="Employee Contact Number" textFill="#330075">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="textField1" layoutX="336.0" layoutY="131.0" prefHeight="33.0" prefWidth="230.0" />
+            <TextField fx:id="textField2" layoutX="336.0" layoutY="185.0" prefHeight="33.0" prefWidth="230.0" />
+            <TextField fx:id="textField3" layoutX="336.0" layoutY="289.0" prefHeight="33.0" prefWidth="230.0" />
+            <Button fx:id="add" layoutX="237.0" layoutY="459.0" mnemonicParsing="false" onAction="#add" prefHeight="51.0" prefWidth="145.0" style="-fx-background-color: #9A71D1;" text="Add Employee">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label layoutX="104.0" layoutY="342.0" text="Employee Role" textFill="#330075">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <CheckBox fx:id="HT" layoutX="336.0" layoutY="342.0" mnemonicParsing="false" selected="true" text="Hardware Technician" textFill="#330075">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="17.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="P" layoutX="336.0" layoutY="376.0" mnemonicParsing="false" text="Programmer" textFill="#330075">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="17.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="SI" layoutX="336.0" layoutY="412.0" mnemonicParsing="false" text="Software Installer" textFill="#330075">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="17.0" />
+               </font></CheckBox>
+            <DatePicker fx:id="date" layoutX="336.0" layoutY="237.0" prefHeight="33.0" prefWidth="230.0" />
+            <Label layoutX="248.0" layoutY="68.0" text="Add Employee" textFill="#15170b">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="back" layoutX="547.0" layoutY="523.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="50.0" text="&lt;&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="112.0" layoutY="18.0" text="Computer Consultancy Firm">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="reset" layoutX="1.0" layoutY="523.0" mnemonicParsing="false" onAction="#reset" prefHeight="45.0" prefWidth="100.0" text="Reset">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

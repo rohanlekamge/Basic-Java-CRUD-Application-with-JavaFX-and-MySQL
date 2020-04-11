@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contract.ContractUpdate">
+   <children>
+      <Pane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;">
+         <children>
+            <RadioButton fx:id="radio2" layoutX="308.0" layoutY="440.0" mnemonicParsing="false" selected="true" text="Software Upgrade" textFill="#330075">
+               <toggleGroup>
+                  <ToggleGroup fx:id="MyGroup" />
+               </toggleGroup>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="221.0" layoutY="67.0" text="Update Contract" textFill="#15170b">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="update" layoutX="232.0" layoutY="490.0" mnemonicParsing="false" onAction="#update" prefHeight="60.0" prefWidth="133.0" style="-fx-background-color: #F48F4A;" text="Update">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="radio1" layoutX="308.0" layoutY="407.0" mnemonicParsing="false" text="System Development" textFill="#330075" toggleGroup="$MyGroup">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Pane>
+      <Button fx:id="back" layoutX="545.0" layoutY="522.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="50.0" text="&lt;&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="textField3" layoutX="310.0" layoutY="257.0" prefHeight="35.0" prefWidth="220.0" />
+      <Label layoutX="114.0" layoutY="261.0" text="Customer ID" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <DatePicker fx:id="date" layoutX="310.0" layoutY="118.0" prefHeight="35.0" prefWidth="220.0" />
+      <TextArea fx:id="textField4" layoutX="310.0" layoutY="304.0" prefHeight="90.0" prefWidth="220.0" />
+      <Label layoutX="114.0" layoutY="407.0" text="Job Type" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="textField2" layoutX="310.0" layoutY="211.0" prefHeight="35.0" prefWidth="220.0" />
+      <TextField fx:id="textField1" layoutX="310.0" layoutY="164.0" prefHeight="35.0" prefWidth="220.0" />
+      <Label layoutX="114.0" layoutY="306.0" text="Contract Description" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="216.0" text="Employee ID" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="169.0" text="Contract ID" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="123.0" text="Date Creation" textFill="#330075">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="112.0" layoutY="18.0" text="Computer Consultancy Firm">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="reset" layoutX="1.0" layoutY="521.0" mnemonicParsing="false" onAction="#reset" prefHeight="45.0" prefWidth="100.0" text="Reset">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

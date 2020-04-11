@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.EmployeeMenu">
+   <children>
+      <Pane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;">
+         <children>
+            <Button fx:id="deleteEmployee" layoutX="198.0" layoutY="377.0" mnemonicParsing="false" onAction="#deleteEmployee" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #4CAF50;" text="Delete Employee">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="addEmployee" layoutX="199.0" layoutY="138.0" mnemonicParsing="false" onAction="#addEmployee" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #9A71D1;" text="Add Employee">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="viewEmployee" layoutX="198.0" layoutY="297.0" mnemonicParsing="false" onAction="#viewEmployee" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #3583E6;" text="View Employee">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="updateEmployee" layoutX="198.0" layoutY="217.0" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #F48F4A;" text="Update Employee">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="222.0" layoutY="70.0" text="Employee Menu" textFill="#15170b">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="salaryEmployee" layoutX="198.0" layoutY="459.0" mnemonicParsing="false" onAction="#salaryEmployee" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #f4dc42;" text="Employee Salary">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="back" layoutX="545.0" layoutY="522.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="50.0" text="&lt;&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="112.0" layoutY="18.0" text="Computer Consultency Firm">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="1.0" layoutY="522.0" mnemonicParsing="false" onAction="#logout" prefHeight="45.0" prefWidth="100.0" text="Sign Out">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

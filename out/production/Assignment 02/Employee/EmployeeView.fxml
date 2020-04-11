@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Employee.EmployeeView">
+   <children>
+      <Label layoutX="112.0" layoutY="18.0" text="Computer Consultancy Firm">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutY="65.0" prefHeight="473.0" prefWidth="596.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="ID" prefWidth="63.0" text="ID" />
+            <TableColumn fx:id="Name" prefWidth="125.0" text="Name" />
+            <TableColumn fx:id="DOB" minWidth="0.0" prefWidth="109.0" text="DOB" />
+            <TableColumn fx:id="Contact" minWidth="0.0" prefWidth="108.0" text="Contact" />
+            <TableColumn fx:id="Description" minWidth="0.0" prefWidth="190.0" text="Description" />
+         </columns>
+      </TableView>
+      <Button fx:id="back" layoutX="545.0" layoutY="522.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="50.0" text="&lt;&lt;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="1.0" layoutY="522.0" mnemonicParsing="false" onAction="#logout" prefHeight="45.0" prefWidth="100.0" text="Sign Out">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

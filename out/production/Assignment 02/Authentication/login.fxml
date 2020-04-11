@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Authentication.login">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;">
+         <children>
+            <Label layoutX="112.0" layoutY="18.0" text="Computer Consultency Firm">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="175.0" text="Username" textFill="#330075">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userName" layoutX="273.0" layoutY="172.0" prefHeight="40.0" prefWidth="186.0" promptText="Your Username">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <Label layoutX="125.0" layoutY="263.0" text="Password" textFill="#330075">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button defaultButton="true" layoutX="258.0" layoutY="375.0" mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="98.0" style="-fx-background-color: #4CAF50;" text="Login" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="isConnected" contentDisplay="CENTER" layoutX="137.0" layoutY="451.0" prefHeight="45.0" prefWidth="331.0" textAlignment="CENTER" textFill="#b90000">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="userPassword" layoutX="273.0" layoutY="258.0" prefHeight="40.0" prefWidth="186.0" promptText="Your Password">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <Label layoutX="220.0" layoutY="73.0" text="Manager SignIn" textFill="#15170b">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="545.0" layoutY="521.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="50.0" text="&lt;&lt;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</GridPane>

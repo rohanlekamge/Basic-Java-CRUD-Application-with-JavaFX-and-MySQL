@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="568.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu.Main">
+   <children>
+      <Pane prefHeight="568.0" prefWidth="596.0" style="-fx-background-color: #366D82;" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="In" alignment="CENTER" layoutX="198.0" layoutY="169.0" mnemonicParsing="false" onAction="#In" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #9A71D1;" text="Admin" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="Out" layoutX="198.0" layoutY="290.0" mnemonicParsing="false" onAction="#Out" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #F48F4A;" text="Exit" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Label layoutX="112.0" layoutY="18.0" text="Computer Consultency Firm">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
